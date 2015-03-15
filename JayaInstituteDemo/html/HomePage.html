@@ -1,90 +1,108 @@
-<!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../scripts/alienscripts/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="../scripts/myScripts/homepage.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../scripts/alienscripts/js/jssor.js"></script>
+    <script type="text/javascript" src="../scripts/alienscripts/js/jssor.slider.js"></script>
     <title></title>
 </head>
 <body class="mainBody">
 
 <div id="mainHeader">
-<img class="imagesetting"src="../images/img.png">
-    <div class="text">
+    <img class="imagesetting" src="../images/img.png" style="float: left;">
+
+    <div class="instituteName">
         JAYA NEPAL INSTITUTE
+    </div>
+    <div style="
+    position: relative;
+    float: left;
+    margin-top: 20px;
+">
+        <ul id="menu">
+            <li class="selectedMenu menuClick mainMenu" data-page="maincontent"><a>HOME</a></li>
+            <li class="mainMenu">
+                <a>DEPARTMENT</a>
+                <ul class="submenu">
+                    <li class="menuClick"><a>HOTEL MANAGEMENT</a></li>
+                    <li class="menuClick"><a>TECHNICAL TRAINING</a></li>
+                    <li class="menuClick"><a>LANGUAGE</a></li>
+                </ul>
+            </li>
+            <li class="menuClick mainMenu"><a>COURSE OFFERED</a></li>
+            <li class="menuClick mainMenu"><a>STUDENT</a></li>
+            <li class="menuClick mainMenu"><a>DEMO</a></li>
+            <li class="mainMenu"><a>ABOUT US</a>
+                <ul class="submenu">
+                    <li class="menuClick"><a>WHO ARE WE</a></li>
+                    <li class="menuClick"><a>WHAT WE DO</a></li>
+                    <li class="menuClick"><a>OUR ACHIEVEMENTS</a></li>
+                </ul>
+            </li>
+            <li class="menuClick mainMenu" data-page="contactUs"><a>CONTACT US</a></li>
+        </ul>
     </div>
 </div>
 
-<div class="sliderPart">
+<div id="maincontent" class="page">
+<div class="sliderPart"></div>
 
-</div>
-<div>
-    <ul id="menu">
-        <li><a href="home.html">HOME</a> </li>
-        <li>
-            <a href="home.html">DEPARTMENT</a>
-            <ul id="submenu">
-                <li><a href="#">HOTEL MANAGEMENT</a></li>
-                <li><a href="#">TECHNICAL TRAINING</a></li>
-                <li><a href="#">LANGUAGE</a></li>
-            </ul>
-        </li>
-        <li ><a href="home.html">COURSE OFFERED</a></li>
-        <li><a href="home.html">STUDENT</a> </li>
-        <li><a href="home.html">DEMO</a> </li>
-        <li><a href="home.html">ABOUT US</a>
-            <ul id="submenu">
-                <li ><a href="#">WHO ARE WE</a></li>
-                <li><a href="#">WHAT WE DO</a></li>
-                <li><a href="#">OUR ACHIEVEMENTS</a></li>
-            </ul>
-        </li>
-        <li><a href="home.html">CONTACT US</a> </li>
+    <div class="content">
+        <p class="JNI"><br><b>Welcome to JNI</b></p>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <font color="black"><b>J</b>aya Nepal Institutes is a group that defines a technology boon
+            for people of <br>&nbsp;&nbsp;&nbsp;&nbsp;any age group to come and learn campaign.
+            The group defines a technology <br>&nbsp;&nbsp;&nbsp;&nbsp;table where knowledge of any part of industry is
+            served.
+            <br><br>&nbsp;&nbsp;&nbsp;&nbsp;It serves knowledge and training in the defined field which are the neediest
+            in <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;today’s industry sectors.
+            Providing training in Vocation, Languages, Information <br> &nbsp;&nbsp;&nbsp;&nbsp;
+            Technology and Electronics field Jaya Nepal Institutes
+            have made their mark in<br> &nbsp;&nbsp;&nbsp;&nbsp;every field equally and provided a bunch of well managed
+            and perfect employees
+            <br> &nbsp;&nbsp;&nbsp;&nbsp;and trained
+            students to the industry.
+            Coming into the mark Jaya Nepal has </font>
+    </div>
+    <div class="trainingsection">
+        <br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TRAINING SECTION</b>
+    </div>
+    <ul>
+        <li class="trainingcontent"><a href=""> Hotel Management</a></li>
+        <hr class="ruler">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <li class="trainingcontent"><a href="">Electronics</a></li>
+        <hr class="ruler">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <li class="trainingcontent"><a href="">Computer Technology</a></li>
+        <hr class="ruler">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <li class="trainingcontent"><a href="">Languages</a></li>
     </ul>
-</div>
-<hr class="line">
-<div class="maincontent">
-<div class="content">
-    <p class="JNI"> <br><b>Welcome to JNI</b></p>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <font color="black"><b>J</b>aya Nepal Institutes is a group that defines a technology boon
-    for people of <br>&nbsp;&nbsp;&nbsp;&nbsp;any age group to come and learn campaign.
-    The group defines a technology <br>&nbsp;&nbsp;&nbsp;&nbsp;table where knowledge of any part of industry is served.
-        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;It serves knowledge and training in the defined field which are the neediest in <br>
-        &nbsp;&nbsp;&nbsp;&nbsp;today’s industry sectors.
-        Providing training in Vocation, Languages, Information <br> &nbsp;&nbsp;&nbsp;&nbsp;
-        Technology and Electronics field Jaya Nepal Institutes
-        have made their mark in<br> &nbsp;&nbsp;&nbsp;&nbsp;every field equally and provided a bunch of well managed and perfect employees
-        <br> &nbsp;&nbsp;&nbsp;&nbsp;and trained
-        students to the industry.
-        Coming into the mark Jaya Nepal has </font>
-</div>
-<div class="trainingsection">
-    <br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TRAINING SECTION</b>
-</div>
-<ul>
-    <li class="trainingcontent">Hotel Management</li>
-    <hr class="ruler"><br><br><br><br><br><br><br><br><br><br><br><br>
-    <li class="trainingcontent">Electronics</li>
-    <hr class="ruler"><br><br><br><br><br><br><br><br><br><br><br><br>
-    <li class="trainingcontent">Computer Technology</li>
-    <hr class="ruler"><br><br><br><br><br><br><br><br><br><br><br><br>
-    <li class="trainingcontent">Languages</li>
-</ul><br>
-<div class="imagesborder">
-    <div class="image"><img src="../images/book.jpg"> </div>
-    <div style="margin-left: 320px; width:306px;
+    <br>
+
+    <div class="imagesborder">
+        <div class="image"><img src="../images/book.jpg"></div>
+        <div style="margin-left: 320px; width:306px;
     height:165px;;margin-top:-170px; border-color: #0000FF;
-    border-style: solid;"><img src="../images/book.jpg"> </div>
-    <div style="margin-left:640px; width:306px;
+    border-style: solid;"><img src="../images/book.jpg"></div>
+        <div style="margin-left:640px; width:306px;
     height:165px;;margin-top:-170px; border-color: #0000FF;
-    border-style: solid;"><img src="../images/book.jpg"> </div>
+    border-style: solid;"><img src="../images/book.jpg"></div>
 
 
+    </div>
 </div>
+<div id = "aboutUs" class="page">
+    Hello
 </div>
-<!--checking github-->
 
-
+<div id = "contactUs" class="page">
+    Contact US
+</div>
 
 </body>
 </html>
